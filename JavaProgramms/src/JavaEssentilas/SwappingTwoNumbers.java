@@ -11,11 +11,21 @@ public class SwappingTwoNumbers {
 		
 		//Logic 1
 		
-		int t=a;
+		/*int t=a;
 		a=b;
 		b=t;
 		
+		System.out.println("After swapping..."+a+" " +b);*/
+		
+		//logic 2 without using third variable
+		
+		a=a*b;
+		b=a/b;
+		a=a/b;
+		
 		System.out.println("After swapping..."+a+" " +b);
+
+		
 
 		
 	}
