@@ -17,15 +17,34 @@ public class SwappingTwoNumbers {
 		
 		System.out.println("After swapping..."+a+" " +b);*/
 		
-		//logic 2 without using third variable
+		//logic 2 without using third variable (use * and /)
 		
-		a=a*b;
+		/*a=a*b;
 		b=a/b;
 		a=a/b;
 		
-		System.out.println("After swapping..."+a+" " +b);
+		System.out.println("After swapping..."+a+" " +b);*/
 
+		//logic 3 without using third variable (use + and -)
 		
+		/*a=a+b;
+		b=a-b;
+		a=a-b;
+		
+		System.out.println("After swapping..."+a+" " +b);*/
+		
+		//Logic 5 using Xor
+		
+		/*a=a^b;
+		b=a^b;
+		a=a^b;
+
+		System.out.println("After swapping..."+a+" " +b);*/
+		
+		//Logic 5 using single line
+		
+		b=a+b-(a=b);
+		System.out.println("After swapping..."+a+" " +b);
 
 		
 	}
